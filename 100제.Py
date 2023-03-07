@@ -28,3 +28,34 @@ print(a)
 print(b)
 
 13
+a = input()
+b = input()
+print(a)
+print(b)
+
+14
+a = float(input())
+for i in range(3):
+    print(a)
+
+15
+a, b = input().split()
+print("{}\n{}".format(a, b))
+
+16
+a, b = input().split()
+print("{0} {1}".format(b, a))
+
+17
+s = input()
+print("{0},{0},{0}".format(s))
+
+18
+a, b = input().split(":")
+print(a, b, sep=":")
+19
+a, b, c = input().split("-")
+print(c, b, a, sep="-")
+20
+a, b = input().split("-")
+print("{}{}".format(a, b))
