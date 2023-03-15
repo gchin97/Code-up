@@ -25,3 +25,11 @@ print((bool(a) and bool(b)) or (not (bool(a) and not (bool(b)))))
 58
 a, b = map(int, input().split())
 print(bool(a) == bool(b) == False)
+
+59
+a = int(input())
+print(~a)
+
+60
+a, b = map(int, input().split())
+print(a & b)
