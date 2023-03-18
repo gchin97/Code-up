@@ -26,6 +26,7 @@ nums.reverse()
 for i in nums:
     print(int(i), end=' ')
 94
+for i in int(input())
 
 95
 
