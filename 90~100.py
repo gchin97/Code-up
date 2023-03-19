@@ -29,6 +29,7 @@ for i in nums:
 for i in int(input())
 
 95
+for i in int(input())
 
 96
 
