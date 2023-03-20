@@ -32,7 +32,7 @@ for i in int(input())
 for i in int(input())
 
 96
-
+for i in int(input())
 97
 
 98
