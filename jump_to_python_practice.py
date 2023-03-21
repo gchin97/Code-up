@@ -25,3 +25,23 @@ def sum_many(**kargs):
 
 
 print(sum_many(name="int 조수", b="2"))
+
+# return 값이 tuple 형태로 나옴
+
+
+def sum_mul(a, b):
+    return a+b, a*b, a-b
+
+
+print(sum_mul(1, 2))
+= > (3, 2, 1)
+
+# 근데 난 여기서 더한 값만 쓸래 == 튜플에서 0번째만 뽑아옴
+
+
+def sum_mul(a, b):
+    return a+b, a*b, a-b
+
+
+print(sum_mul(1, 2)[0])
+= > (3, 2, 1)
