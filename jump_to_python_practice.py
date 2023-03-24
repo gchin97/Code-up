@@ -168,3 +168,32 @@ echo.echo_test()
 def render_test():
     print("render")
     echo_test()
+
+
+try:
+    4/0
+except ZeroDivisionError as e:
+    print(e)
+
+print("hi")
+
+try:
+    # 오류 날때 시도하는 것
+    f = open("none", "r")
+    # exception 으로 잡으면 모든 에러가 다 잡히니까 exception 쓰셈
+except Exception as e:
+    print(str(e))
+else:
+    data = f.read()
+    print(data)
+finally:
+    # 뭐가 어찌됐든 마지막에 꼭 실행해야하는 것
+    f.close()
+
+
+t = 0
+while t < 10:
+    print("{0} 나무 넘어갑니다".format(t))
+    t += 1
+    if t == 10:
+        print("나무 끝")
