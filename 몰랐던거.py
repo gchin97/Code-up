@@ -13,7 +13,7 @@ b = a[:]
 b = copy(a)
 
 a값과 b값을 바꾸기
-a, b = b, a
+a, b = b, aa = b
 
 
 t = 0
