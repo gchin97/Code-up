@@ -13,7 +13,9 @@ b = a[:]
 b = copy(a)
 
 a값과 b값을 바꾸기
-a, b = b, aa = b
+a, b = b, a, a = b
+
+for a in enumerate
 
 
 t = 0
