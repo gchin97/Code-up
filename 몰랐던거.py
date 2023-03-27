@@ -16,6 +16,7 @@ a값과 b값을 바꾸기
 a, b = b, a, a = b
 
 for a in enumerate
+for a in enumerate
 
 
 t = 0
