@@ -17,7 +17,7 @@ a, b = b, a, a = b
 
 for a in enumerate
 for a in enumerate
-
+for a in enumerate
 
 t = 0
 while t < 10:
