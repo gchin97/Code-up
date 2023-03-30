@@ -33,4 +33,4 @@ no_book = [7]
 for i in range(1, 25):
     if i in absent:
 
-print("{0}, 책 읽어".format(i))
+    print("{0}, 책 읽어".format(i))
