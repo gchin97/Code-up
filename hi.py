@@ -15,8 +15,8 @@ with open("EmployeeDemographic.csv", "r") as report_file:
     filedata = report_file.read()
 filedata = filedata.replace("'", "")
 
-# with open("EmployeeDemographic.csv", "w") as report_file:
-#     report_file(filedata)
+with open('EmployeeDemographic.csv', 'w') as report_file:
+    report_file.write(filedata)
 
 with open("EmployeeSalary.csv", "w") as report_files:
     report_files.write("'EmployeeID', 'JobTitle', 'Salary'")
