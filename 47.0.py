@@ -5,4 +5,5 @@ print(a << b)
 
 a, b = map(int, )
 a, b = map(int,)
-a,b = map(int)
+a, b = map(int)
+a, b = map(int)
