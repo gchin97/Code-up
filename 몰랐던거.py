@@ -25,4 +25,4 @@
 #     t += 1
 #     if t == 10:
 #         print("나무 끝")
-#         break
+#         breakㅁ
